@@ -10,7 +10,7 @@ body {
   max-width: 30%;
   margin: none;
 }
-
+/* Navigation */
 ul{
   display: flex;
   justify-content: center;
@@ -19,6 +19,26 @@ ul{
 li {
   list-style: none;
   }
+
+.About{
+  padding: 1em;
+}
+
+.Services{
+  padding: 1em;
+}
+
+.Events{
+  padding: 1em;
+}
+
+.Guides{
+  padding: 1em;
+}
+
+.Contact{
+  padding: 1em;
+}
 
 div, section, main, aside, header, footer, nav {
   border: 1px solid lightgray;

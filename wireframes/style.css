@@ -7,10 +7,6 @@
   margin: none;
 }
 /* Navigation */
-ul{
-  display: flex;
-  justify-content: center;
-}
 
 li {
   list-style: none;
@@ -22,26 +18,6 @@ body {
     padding: 1em;
     font-family: "Josefin-Sans", sans-serif;
   }
-
-.About{
-  padding: 1em;
-}
-
-.Services{
-  padding: 1em;
-}
-
-.Events{
-  padding: 1em;
-}
-
-.Guides{
-  padding: 1em;
-}
-
-.Contact{
-  padding: 1em;
-}
 
 div, section, main, aside, header, footer, nav {
   border: 1px solid lightgray;

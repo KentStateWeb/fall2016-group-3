@@ -8,9 +8,34 @@
 }
 /* Navigation */
 
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
 li {
   list-style: none;
   }
+
+.About {
+  padding: 1em;
+}
+
+.Services {
+  padding: 1em;
+}
+
+.Events {
+  padding: 1em;
+}
+
+.Guides {
+  padding: 1em;
+}
+
+.Contact {
+  padding: 1em; 
+}
 
 /* Main Content */
 body {

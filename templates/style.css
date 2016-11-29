@@ -11,10 +11,17 @@
 nav ul {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  background-color: #2e4e57;
+  max-width: 70%;
 }
 
 li {
   list-style: none;
+  }
+
+a {
+    text-decoration: none;
   }
 
 .About {

@@ -2,12 +2,13 @@ body
 {background-color: white;
 padding: .5em;
 margin: .5em;
-font-family: 'Josefin Sans', sans-serif;}
+font-family: 'Josefin Sans', sans-serif;
+text-align:justify;}
 
 /* Header */
 header
 {display: flex;
- align-items: top;
+ align-items: middle;
  background-color: hsl(195.3, 34.4%, 24.5%) ;
 height: 75px;
 max-width: 100%;
@@ -26,13 +27,14 @@ margin: auto;
 
 .logo
 {width: 200px;
-display: inline;
+display: inline-block;
 padding: .2em;}
 
 
 
 .sandwich{
   display: flex;
+  margin-top: -.5em;
   max-width: 35px;
   background-color: hsl (195.3, 34.4%, 24.5%);
 }
@@ -57,7 +59,7 @@ text-decoration: none;}
 
 .portal
 a:visited
-{color: hsl(193.1, 40%, 84.3%);
+{color: white;
 text-decoration: none;}
 
 .portal
@@ -87,7 +89,7 @@ text-decoration: none;}
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
       height: 50px;
-    background-color: hsl: (195.3, 34.4%, 24.5%);
+    background-color: hsl(195.3, 34.4%, 24.5%);
     position: relative;
     display: flex;
 }
@@ -130,10 +132,105 @@ text-decoration: none;}
 	background-size: cover;
   padding: 1.5em;
 }
+ /* ADJECTIVES */
 
-.adjectives .top-photo  {
-  background-color: red;
+.adjectives {
+  font-family: 'Josefin Slab', serif;
+    color: hsl(193.3, 33.1%, 52%);
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: -.75em 1em -.5em auto;
 }
 
+
 .appointment {
-  color: red;}
+  background-color: hsl(195.3, 34.4%, 24.5%);
+  font-family: 'Josefin Sans', sans-serif;
+  width: 40%;
+  max-width: 200px;
+  font-size: 1.2em;
+  padding: .5em .5em .75em .5em;
+  text-align: center;
+ border-radius: 10px;
+ color: white;
+margin-bottom: 2em;}
+
+   /* APPOINTMENT LINKS */
+
+   .appointment
+   a:link
+   {color: white;
+   text-decoration: none;}
+
+   .appointment
+   a:visited
+   {color: hsl(193.1, 40%, 84.3%);
+   text-decoration: none;}
+
+   .appointment
+   a:hover
+   {color: hsl(193.3, 33.1%, 52%);
+   text-decoration: none;}
+
+   .appointment
+   a:active
+   {color: hsl(13.6, 78.6%, 67.1%);
+   text-decoration: none;}
+
+
+   /* LETS */
+
+   .lets
+   {margin-top: 2em;
+   margin-bottom: -1em;}
+
+   /* HEADLINES */
+
+   h2{
+  font-family: 'Josefin Slab', serif;
+  color: hsl(13.6, 78.6%, 67.1%);
+  font-weight: bold;}
+
+
+/* MOBILE ICONS */
+.icons
+{display: flex;
+max-width: 100%;
+margin: inherit;
+padding: .25em;}
+
+.icon1{
+  width: 100px;
+margin-left: -3em;
+margin-top: .5em;
+margin-right: .5em;}
+
+.icon2{
+  width: 100px;
+margin: .5em;}
+
+.icon3{
+  width: 100px;
+margin: .5em;}
+
+.icon4{
+  width: 100px;
+margin: .5em;}
+
+
+figcaption
+{font-size: 1em;
+text-align: center;
+margin:0;
+width: 100px;
+margin-top: 1em;}
+
+
+
+  /* FOOTER */
+
+  footer
+  {background-color: hsl(195.3, 34.4%, 24.5%);
+  color: white;
+padding: .5em;
+vertical-align: baseline;}

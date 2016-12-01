@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Josefin+Slab:400,700');
+
+@media screen and (min-width: 400px) {
+  .feline {
+        background-image: url(images/cat_cropped.jpg);
+        background-size: cover;
+        padding-top: none;
+        padding-right: 4em;
+        padding-bottom: 8em;
+        padding-left: 3em;
+        margin: 0 auto;
+        }
+
+  .cat {
+    background-color: hsla (193.1, 40%, 84.3%, .6);
+    max-width: 55%;
+    padding: 3em;
+  }
+
+  .canine {
+        background-image: url(images/dog_cropped.jpg);
+        background-size: cover;
+        padding-top: 5em;
+        padding-left: 3em;
+        padding-bottom: 8em;
+        padding-right: 4em;
+        margin: 0 auto;
+        }
+
+  .dog {
+        background-color: hsla(193.1, 40%, 84.3%, .6);
+        max-width: 58%;
+        padding: 3em;
+        padding-right: none;
+      }
+
+  .exotic {
+      background-image: url(images/bird.jpg);
+      background-size: cover;
+      padding-top: 5em;
+      padding-left: 3em;
+      padding-bottom: 10em;
+      margin-top: .125em;
+      margin-bottom: .125em;
+      }
+
+  .bird {
+      background-color: hsla(193.1, 40%, 84.3%, .6);
+      max-width: 55%;
+      padding: 3em;
+      padding-right: none;
+    }
+}

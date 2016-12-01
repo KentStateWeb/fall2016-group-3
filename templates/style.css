@@ -51,7 +51,7 @@ body {
     font-family: "Josefin-Sans", sans-serif;
   }
 
-div, section, main, aside, header, footer, nav {
+section, main, aside, footer {
   border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;

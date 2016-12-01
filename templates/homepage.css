@@ -1,44 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Josefin+Slab:400,700');
+body
+{background-color: white;
+padding: .5em;
+margin: .5em;
+font-family: 'Josefin Sans', sans-serif;}
 
 /* Header */
-
-.logo {
-  width: 33%;
-  max-width: 500px;
-  display: inline-block;
-  vertical-align:central;
+header
+{display: flex;
+ align-items: top;
+ background-color: hsl(195.3, 34.4%, 24.5%) ;
+height: 75px;
+max-width: 100%;
+margin: auto;
 }
 
-@media only screen and (max-width: 700px) {
-    .logo {
-        display: flex;
-		justify-content: center;
-    width: 100%;
-    margin: auto;
-    }
+.right-header{
+ background-color: hsl(195.3, 34.4%, 24.5%) ;
+  display: flex;
+  position: absolute;
+  right: 1em;
+  height: 25px;
+  max-width: 100%;
+  margin: 1em;
+}
+
+.logo
+{width: 200px;
+display: inline;
+padding: .2em;}
+
+
+
+.sandwich{
+  display: flex;
+  max-width: 35px;
+  background-color: hsl (195.3, 34.4%, 24.5%);
 }
 
 /* pet portal button */
 
-.portal
-{
- color: white;
- font-family: sans-serif;
- font-weight: bold;
- padding: .5em;
- Width: 10%;
- text-align: center;
- background-color: hsl(13.6, 78.6%, 67.1%);
-display: inline-block;
-margin: 0;
-vertical-align: top;
-border-radius: 10px;
-position:absolute;
-right:0;
+  .portal {
+     max-width: 50%;
+     padding: .5em;
+     margin: .25em;
+     text-align: center;
+     background-color: hsl(13.6,     78.6%, 67.1%);
+     height: 12px;
+    border-radius: 10px;
+    color: white;}
 
-
-}
-
+/* pet portal link */
 .portal
 a:link
 {color: white;
@@ -59,120 +70,70 @@ a:active
 {color: hsl(13.6, 78.6%, 67.1%);
 text-decoration: none;}
 
-@media only screen and (max-width: 746px) {
-    .portal {
-     position: static;
-     display: block;
-     margin: auto;
-     text-align: auto;
-     width: 95%;
-     padding: .5em;
 
-    }
+/* DROPDOWN */
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: hsl(195.3, 34.4%, 24.5%);
+    height: 50px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: cursor;
 }
 
-
-
-
-
-
-
-
-
-/* Navigation */
-
-@media screen and (min-width: 700px) {
-	ul{
-		display: flex;
-		justify-content: center;
-	}
-}
-	li{
-		width: 100%;
-		height: 1em;
-	}
-
-nav {
-	color: white;
-	font-family: sans-serif;
-	font-weight: bold;
-  padding: .25em;
-	margin: .25em;
-	text-align: center;
-	}
-
-ul {
-  text-decoration: none;
-	list-style-type: none;
-  border-radius: 10px;
-	background-color: hsl(195.3, 34.4%, 24.5%);
-;
-	padding: 0;
-	margin: 0;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+      height: 50px;
+    background-color: hsl: (195.3, 34.4%, 24.5%);
+    position: relative;
+    display: flex;
 }
 
-.about {
-	padding: 1em;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.services {
-	padding: 1em;
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.events {
-	padding: 1em;
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: hsl(193.3, 33.1%, 52%);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: hsl(193.1, 40%, 84.3%);
 }
 
-.guides {
-	padding: 1em;
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgba(255, 255, 255, 0.10);
 }
 
-.contact {
-	padding: 1em;
-}
+/* Body */
 
-/* Nav Links */
-nav
-a:link
-{color: white;
-text-decoration: none;}
-
-nav
-a:visited
-{color: hsl(193.1, 40%, 84.3%);
-text-decoration: none;}
-
-nav
-a:hover
-{color: hsl(193.3, 33.1%, 52%);
-text-decoration: none;}
-
-nav
-a:active
-{color: hsl(13.6, 78.6%, 67.1%);
-text-decoration: none;}
-
-
-
-
-
-
-
-
-
-/* Header image */
-
- .top-image
- { background-image: <img src="//images/PetsFirst-Header1.png" alt="image of vet and pet" style="width:1500x;height:500px;">);
+.top-photo {
+	background-image: url("images/PetsFirst-Header1.png");
 	background-size: cover;
+  padding: 1.5em;
 }
 
-
-
-
-body {
-	background-color: white;
-	margin: 0;
-	padding: 0;
-	font-family: 'Josefin+Slab', sans-serif;
+.adjectives .top-photo  {
+  background-color: red;
 }
+
+.appointment {
+  color: red;}

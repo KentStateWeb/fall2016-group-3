@@ -1,53 +1,87 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Josefin+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Josefin+Slab:400,700');
 
 @media screen and (min-width: 400px) {
+  .title {
+      color: #5C9BAD;
+      text-align: center;
+    }
+
+/* Main */
+  /* Pet Care Guides Links */
   .feline {
-        background-image: url(images/cat_cropped.jpg);
-        background-size: cover;
-        padding-top: none;
-        padding-right: 4em;
-        padding-bottom: 8em;
-        padding-left: 3em;
-        margin: 0 auto;
-        }
-
-  .cat {
-    background-color: hsla (193.1, 40%, 84.3%, .6);
-    max-width: 55%;
-    padding: 3em;
-  }
-
-  .canine {
-        background-image: url(images/dog_cropped.jpg);
-        background-size: cover;
-        padding-top: 5em;
-        padding-left: 3em;
-        padding-bottom: 8em;
-        padding-right: 4em;
-        margin: 0 auto;
-        }
-
-  .dog {
-        background-color: hsla(193.1, 40%, 84.3%, .6);
-        max-width: 58%;
-        padding: 3em;
-        padding-right: none;
-      }
-
-  .exotic {
-      background-image: url(images/bird.jpg);
+      background-image: url(images/cat_mobile.jpg);
       background-size: cover;
       padding-top: 5em;
-      padding-left: 3em;
+      padding-left: 2em;
+      padding-right: 2em;
       padding-bottom: 10em;
       margin-top: .125em;
+      margin-bottom: .5em;
+    }
+
+  .cat {
+      background-color: hsla(193.1, 40%, 84.3%, .7);
+      max-width: 100%;
+      padding-top: 2em;
+      padding-bottom: 4em;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+
+  .canine {
+      background-image: url(images/dog_mobile.jpg);
+      background-size: cover;
+      padding-top: 5em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 10em;
+      margin-top: .5em;
+      margin-bottom: .5em;
+    }
+
+  .dog {
+      background-color: hsla(193.1, 40%, 84.3%, .7);
+      max-width: 100%;
+      padding-top: 2em;
+      padding-bottom: 4em;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+
+  .question {
+      font-family: "Josefin-Sans", sans-serif;
+      font-weight: 700;
+      font-size: 1.5em;
+      text-align: center;
+      line-height: 1.8em;
+    }
+
+  .question2 {
+    font-family: "Josefin-Slab", serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.8em;
+  }
+
+
+  .exotic {
+      background-image: url(images/bird_mobile.jpg);
+      background-size: cover;
+      padding-top: 5em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 10em;
+      margin-top: .5em;
       margin-bottom: .125em;
-      }
+    }
 
   .bird {
-      background-color: hsla(193.1, 40%, 84.3%, .6);
-      max-width: 55%;
-      padding: 3em;
-      padding-right: none;
+    background-color: hsla(193.1, 40%, 84.3%, .7);
+    max-width: 100%;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
     }
 }

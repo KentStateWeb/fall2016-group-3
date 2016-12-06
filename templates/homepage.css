@@ -184,20 +184,33 @@ margin-bottom: 2em;}
    {margin-top: 2em;
    margin-bottom: -1em;}
 
+   .goals {
+     text-align: center;
+     line-height: 1.5em;
+   }
+
+   .quote {
+     line-height: 1.5em;
+     text-align: center;
+     font-size: 1em;
+   }
+
    /* HEADLINES */
 
-   h2{
-  font-family: 'Josefin Slab', serif;
-  color: hsl(13.6, 78.6%, 67.1%);
-  font-weight: bold;}
+   h2 {
+     font-family: 'Josefin Slab', serif;
+     color: hsl(13.6, 78.6%, 67.1%);
+     font-weight: bold;
+     text-align: center;
+   }
 
 
 /* MOBILE ICONS */
-.icons
-{display: flex;
-max-width: 100%;
-margin: inherit;
-padding: .25em;}
+.icons {
+      max-width: 100%;
+      margin: inherit;
+      padding: .25em;
+    }
 
 .icon1{
   width: 100px;
@@ -229,8 +242,24 @@ margin-top: 1em;}
 
   /* FOOTER */
 
-  footer
-  {background-color: hsl(195.3, 34.4%, 24.5%);
-  color: white;
-padding: .5em;
-vertical-align: baseline;}
+  footer {
+    background-color: hsl(195.3, 34.4%, 24.5%);
+    color: white;
+    padding: .5em;
+    vertical-align: baseline;
+    text-align: center;
+  }
+
+.social {
+  width: 40px;
+}
+
+.cr {
+  font-weight: 300;
+	font-size: .85em;
+}
+
+.follow {
+	font-weight: 700;
+	font-size: 1.5em;
+}

@@ -192,7 +192,7 @@ margin-bottom: 2em;}
    .quote {
      line-height: 1.5em;
      text-align: center;
-     font-size: 1em;
+     font-size: 1.5em;
    }
 
    /* HEADLINES */
@@ -207,9 +207,13 @@ margin-bottom: 2em;}
 
 /* MOBILE ICONS */
 .icons {
+      display: flex;
+      justify-content: center;
       max-width: 100%;
       margin: inherit;
       padding: .25em;
+      padding-top: none;
+      padding-bottom: 2em;
     }
 
 .icon1{

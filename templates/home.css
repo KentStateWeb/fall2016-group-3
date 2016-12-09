@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Josefin+Slab:400,700');
+
+header {
+      display: flex;
+      background-color: hsl(195.3, 34.4%, 24.5%);
+      padding: 1em;
+    }
+/* Header, nav menu, pet portal */
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color:  #62a4b7;
+}
+  .logo {
+    max-width: 25%;
+  }
+
+  .dropdown-content {
+    margin-left: 4em;
+    padding-top: 4em;
+  }
+
+nav ul {
+  width: 100px;
+  white-space: nowrap;
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  padding: 0 2em 0 .125em;
+}
+
+  .portal {
+    padding-bottom: none;
+    text-decoration: none;
+    background-color: #E6976F;
+    padding: .5em;
+    border-radius: .25em;
+    margin-left: 6em;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+body {
+      background-color: #ededed;
+      margin: .5em;
+      font-family: 'Open Sans', sans-serif;
+    }
+/*Announcement section*/
+    .new {
+      text-align: center;
+      font-size: 2em;
+      color:  #E6976F;
+      background-color: #C7E0E7;
+      margin-left: .125em;
+      padding: .5em;
+    }
+
+/* home page main attraction */
+    .top-photo {
+      background-image: url("images/PetsFirst_Graphics_Pets.png");
+      background-size: cover;
+      padding: 4em;
+      margin-left: 2.5em;
+      margin-right: 2.5em;
+    }
+
+    .lets {
+      font-weight: bolder;
+      font-size: 2em;
+    }
+
+    .adjectives {
+      font-weight: normal;
+      font-size: 1em;
+      padding-bottom: 2em;
+    }
+
+    .appointment {
+      display: block;
+      text-decoration: none;
+      background-color: hsl(195.3, 34.4%, 24.5%);
+      width: 262px;
+      text-align: center;
+      padding: 1em;
+      border-radius: .5em;
+      font-size: 1.2em;
+    }
+
+/*Welcome to Site*/
+
+    .welcome {
+      font-weight: bold;
+      font-size: 1.3em;
+      margin-left: 2em;
+      margin-top: 2em;
+    }
+
+    .y {
+      font-weight: 400;
+      font-size: 2em;
+      margin-left: 1.3em;
+      padding: none;
+    }
+
+    .call {
+      font-weight: 400;
+      font-size: 1.5em;
+      margin-left: 2em;
+      margin-top: none;
+    }
+
+    .emergency {
+      margin-left: 2.7em;
+      margin-top: none;
+      text-decoration: none;
+    }
+
+h2 {
+    font-family: 'Josefin-Slab', serif;
+    color: #E6976F;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #E6976F;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+
+/*Business hours information*/
+h4 {
+  border-bottom: 1px solid #E6976F;
+  max-width: 25%;
+  padding-bottom: .5em
+}
+  .week {
+    font-weight: bold;
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+
+  .week, .notice {
+    line-height: 1.5em;
+  }
+
+  .right-side {
+    position: right-side;
+  }
+  .hours {
+    background-color: white;
+    max-width: 40%;
+    margin: 1em;
+    padding: .125em 0 .5em 1em;
+  }
+
+/* blog */
+  .blog {
+    background-color: #C7E0E7;
+    color: #404142;
+    max-width: 40%;
+    margin: 1em;
+    padding: .125em 0 .5em 1em;
+  }
+
+  .t {
+    background-color: #5C9BAD;
+    color: white;
+    padding: 1em;
+    width: 85%;
+  }
+
+/*Our mission*/
+  .goal {
+    line-height: 8em;
+  }
+
+footer {
+    background-color: hsl(195.3, 34.4%, 24.5%);
+    color: white;
+    padding: .125em .125em 4em 1em;
+  }
+
+  .follow {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .social {
+    max-width: 10%;
+  }
+
+  .media {
+    float: right;
+    clear: right;
+    padding-top: 2em;
+  }
+
+  .contact {
+    float: left;
+    clear: left;
+    margin: .75em 0 0 2em;
+  }
+
+  .terms {
+    display: inline-block;
+  }

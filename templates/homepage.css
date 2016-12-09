@@ -1,14 +1,17 @@
-body
-{background-color: white;
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab');
+
+body {
+  background-color: white;
 padding: .5em;
 margin: .5em;
 font-family: 'Josefin Sans', sans-serif;
-text-align:justify;}
+text-align:justify;
+}
 
 /* Header */
-header
-{display: flex;
- align-items: middle;
+header {
+  display: flex;
+ justify-content: center;
  background-color: hsl(195.3, 34.4%, 24.5%) ;
 height: 75px;
 max-width: 100%;
@@ -25,10 +28,11 @@ margin: auto;
   margin: 1em;
 }
 
-.logo
-{width: 200px;
-display: inline-block;
-padding: .2em;}
+.logo {
+  width: 200px;
+  display: block;
+  padding: .2em;
+}
 
 
 
@@ -216,31 +220,20 @@ margin-bottom: 2em;}
       padding-bottom: 2em;
     }
 
-.icon1{
+.icon {
+  width: 200px;
+  margin-left: -3em;
+  margin-top: .5em;
+  margin-right: .5em;}
+
+
+figcaption {
+  font-size: 1em;
+  text-align: center;
+  margin:0;
   width: 100px;
-margin-left: -3em;
-margin-top: .5em;
-margin-right: .5em;}
-
-.icon2{
-  width: 100px;
-margin: .5em;}
-
-.icon3{
-  width: 100px;
-margin: .5em;}
-
-.icon4{
-  width: 100px;
-margin: .5em;}
-
-
-figcaption
-{font-size: 1em;
-text-align: center;
-margin:0;
-width: 100px;
-margin-top: 1em;}
+  margin-top: 1em;
+}
 
 
 
@@ -249,21 +242,19 @@ margin-top: 1em;}
   footer {
     background-color: hsl(195.3, 34.4%, 24.5%);
     color: white;
-    padding: .5em;
-    vertical-align: baseline;
-    text-align: center;
+    padding: .125em .125em 1em 1em;
+  }
+
+.follow {
+  font-weight: 700;
+  font-size: 1.3em;
   }
 
 .social {
-  width: 40px;
+  width: 20px;
 }
 
-.cr {
-  font-weight: 300;
+.cr, .pp, .tu {
+  font-weight: 200;
 	font-size: .85em;
-}
-
-.follow {
-	font-weight: 700;
-	font-size: 1.5em;
 }

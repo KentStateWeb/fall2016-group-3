@@ -17,14 +17,15 @@ a:visited {
 
 a:hover {
   color:  #62a4b7;
+  font-weight: bold;
 }
   .logo {
-    max-width: 25%;
+    max-width: 20%;
   }
 
   .dropdown-content {
     margin-left: 4em;
-    padding-top: 4em;
+    padding-top: 3em;
   }
 
 nav ul {
@@ -39,7 +40,6 @@ li {
 }
 
   .portal {
-    padding-bottom: none;
     text-decoration: none;
     background-color: #E6976F;
     padding: .5em;
@@ -68,22 +68,23 @@ body {
 
 /* home page main attraction */
     .top-photo {
-      background-image: url("images/PetsFirst_Graphics_Pets.png");
+      background-image: url("images/Graphic_Pets.png");
       background-size: cover;
       padding: 4em;
-      margin-left: 2.5em;
-      margin-right: 2.5em;
     }
 
     .lets {
       font-weight: bolder;
       font-size: 2em;
+      color: #2b4b55;
     }
 
     .adjectives {
       font-weight: normal;
       font-size: 1em;
       padding-bottom: 2em;
+      line-height: 2em;
+      color: #2b4b55;
     }
 
     .appointment {
@@ -176,12 +177,18 @@ h4 {
     background-color: #5C9BAD;
     color: white;
     padding: 1em;
-    width: 85%;
+    width: 90%;
   }
 
 /*Our mission*/
-  .goal {
-    line-height: 8em;
+  .goals {
+    line-height: 2em;
+    margin: 0 3.2em 0 3.2em;
+  }
+
+  .goals2 {
+    margin: 2em 3.2em 3em 2em;
+    font-size: 1.4em;
   }
 
 footer {
@@ -212,4 +219,5 @@ footer {
 
   .terms {
     display: inline-block;
+    padding-top: .75em;
   }

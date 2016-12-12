@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Josefin+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 
 header {
       display: flex;
@@ -9,7 +9,7 @@ header {
     }
 
  .p {
-   background-image: url("images/pawprint_background.jpg");
+   background-image: url("images/outside.jpg");
    background-size: cover;
    max-width: 100%;
    padding: 3em;

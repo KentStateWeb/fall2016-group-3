@@ -13,14 +13,45 @@
  }
  .direction {
    background-color: white;
-   padding: 1em 5em 1em 1em;
+   padding: .5em 1em 1em 1em;
  }
 @media screen and (min-width: 400px) {
   .logo {
-    width: 50%;
+    width: 13em;
+    padding-top: 1.2em;
+  }
+
+  .direction {
+    text-align: center;
+  }
+
+  .week {
+    text-align: left;
+  }
+
+  .feedback {
+    text-align: center;
+  }
+
+  iframe {
+    width: 19em;
+    margin-top: 2em;
+  }
+
+  .blog-full {
+    text-align: center;
+  }
+
+  .submit {
+    max-width: 100%;
+    padding: 1em;
   }
 }
 @media screen and (min-width: 700px) {
+  .logo {
+    width: 15em;
+    padding-top: 1.5em;
+  }
   .box {
     display: flex;
   }
@@ -32,25 +63,42 @@
 
   .blog-full {
     width: auto;
+    text-align: left;
   }
 
   .direction {
     margin-right: 2%;
     margin-top: 1em;
+    text-align: left;
   }
 
 iframe {
     max-width: 100%;
     margin-top: 2em;
   }
+
+  .feedback {
+    text-align: left;
+  }
+
+  .email {
+    max-width: 4em;
+  }
+
+  .submit{
+    width: 8em;
+  }
 }
 /* end of @media screen and (min-width: 700px)*/
 
+h4 {
+  padding-left: .25em;
+}
  .map {
    text-decoration: none;
    background-color: hsl(195.3, 34.4%, 24.5%);
    text-align: center;
-   padding: .65em;
+   padding: .75em;
    border-radius: .5em;
    font-size: 1em;
  }
@@ -62,15 +110,12 @@ iframe {
   }
 
   .blog {
-    text-align: center;
     padding-right: 2em;
   }
 
 /* feedback */
   .feedback {
-    margin-top: 90px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    margin: 4em 0 5em 1em;
   }
 
   .hear {
@@ -84,6 +129,17 @@ iframe {
     margin-top: -.45em;
   }
 
+h5 {
+  padding-top: none;
+}
+
+  .july, .april {
+    font-size: .85em;
+  }
+
+  .july {
+    padding-bottom: 1.5em;
+  }
 /* submission form */
 .name, .email, .message {
   font-size: .95em;
@@ -91,7 +147,7 @@ iframe {
   .name {
     background-color: #f4f4f4;
     border: 1px solid #E6976F;
-    padding: 1em;
+    padding: .65em;
     max-width: 30%;
     color: gray;
     margin-top: 40px;
@@ -100,7 +156,7 @@ iframe {
   .email {
     background-color: #f4f4f4;
     border: 1px solid #E6976F;
-    padding: 1em;
+    padding: .65em;
     max-width: 30%;
     color: gray;
     margin-top: 20px;
@@ -109,8 +165,8 @@ iframe {
   .message {
     background-color: #f4f4f4;
     border: 1px solid #E6976F;
-    padding: .75em .75em 9em .75em;
-    max-width: 90%;
+    padding: .75em .75em 13em .75em;
+    max-width: 75%;
     color: gray;
     margin-top: 20px;
   }
@@ -119,9 +175,8 @@ iframe {
     display: block;
     text-decoration: none;
     background-color: hsl(195.3, 34.4%, 24.5%);
-    width: 120px;
     text-align: center;
-    padding: .35em;
     border-radius: .5em;
     font-size: 1em;
+    margin-top: 1em;
   }

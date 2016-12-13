@@ -385,9 +385,6 @@ h4 {
   }
 
 @media screen and (min-width: 700px) {
-  .intro {
-    text-align: left;
-  }
 
   .right-side {
     display: flex;

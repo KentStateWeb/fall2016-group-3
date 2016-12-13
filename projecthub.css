@@ -13,16 +13,26 @@ header {
   width: 100%;
 }
 
+.dropdown-content a:link {
+  color: white }
+
+.dropdown-content a:hover {
+  color: #5C9BAD }
+
+
 a:link {
   color: white;
+  text-decoration: none;
 }
 
 a:visited {
   color: #C7E0E7;
+  text-decoration: none;
 }
 
 a:hover {
   color:  #294954;
+  text-decoration: none;
 }
   .logo {
     width:200px;

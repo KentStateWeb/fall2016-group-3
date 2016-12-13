@@ -2,45 +2,101 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Pets First! Project Hub</title>
+
   </head>
   <body>
+
+    <header>
+      <a class="logo" href="index.html"> <img src="./templates/images/pf.svg
+  " alt="Pets First! Vet Clinic" /></a>
+
+      <a href="#menu" class="menu-link">
+          <div class="menu-link__hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="menu-link__label">Menu</div>
+      </a>
+
+  <div class="dropdown-content">
+
+  <nav id="menu" role="navigation">
+    <ul>
+    <li><a class="link" href="#">About Us</a></li>
+    <li><a class="link" href="#research">Research</a></li>
+    <li><a class="link" href="#style">Style</a></li>
+    <li><a class="link" href="#wireframes">Wireframes</a></li>
+    <li><a class="link" href="#prototypes">Prototypes</a></li>
+    <li><a class="link" href="#usability">Usability</a></li>
+    <li><a class="link" href="#templates">Templates</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+
     <h1>Group 3 Project Hub</h1>
 
     <Main>
-    <h2>Research Assignments</h2>
+    <a id="research"><h2>Research Assignments</h2></id>
     <div class="blog"><div class="t"><a href="research/research.pdf">View Research Document</a><br>
     <a href="https://drive.google.com/open?id=0BxDPE9-2Wjvdci1KSFI5d0doOTQ">Content and Architecture: Pets First</a><br>
     <a href="https://drive.google.com/open?id=0BxDPE9-2WjvdbWlhNFlXcE5hZmc">October 4: Sketches</a></div></div>
 
-    <h2>October 25: Style</h2>
+    <a id="style"><h2>October 25: Style</h2></id>
       <div class="blog"><div class="t"><a href=style/group3_web-styles.pdf>Style Tiles and Web Mockup</a><br>
     <a href=style/Logo-Iterations.pdf>Logo Rebrand</a><br></div></div>
 
-    <h2>November 8: Wireframes</h2>
+    <a id="wireframes"><h2>November 8: Wireframes</h2></id>
       <div class="blog"><div class="t"><a href= "wireframes/care_guides.html">Care Guides</a><br>
     <a href="wireframes/index.html">Home Pages</a><br>
   <a href="wireframes/contact.html">Contacts</a><br>
   <a href="wireframes/services.html">Services</a></div></div>
 
-  <h2>December 6: Prototypes </h2>
+  <a id="prototypes"><h2>December 6: Prototypes </h2></id>
     <div class="blog"><div class="t"><a href= "templates/care_guides.html">Care Guides</a><br>
   <a href="templates/index.html">Home Pages</a><br>
 <a href="templates/contact.html">Contacts</a><br>
 <a href="templates/services.html">Services</a></div></div>
 
-  <h2>December 6: Usability </h2>
+  <a id="usability"><h2>December 6: Usability </h2></id>
 <div class="blog"><div class="t"><a href="https://docs.google.com/a/kent.edu/document/d/1CCSWc4rOVWk82tjZH9bW6Ihg2skNrJA7HA1oMPQmnHw/edit?usp=sharing">Usability Test</a></div></div>
 
-  <h2>December 13: Templates</h2>
+  <a id="templates"><h2>December 13: Templates</h2></id>
   <div class="blog"><div class="t"><a href="templates/index.html">Home Page Template</a><br>
   <a href="templates/services.html">Our Services Page Template</a><br>
   <a href="templates/contact.html">Contact Us Page Template</a></div></div>
 
 </main>
+
+<footer>
+<section class="contact">
+  <p class="address">858 Portage Drive <br>Kent,OH 44240</p>
+  <p class="pn">330.672.3000</p>
+</section>
+
+<section class="terms">
+  <p class="cr">2016 Pets First! All Rights Reserved</p>
+  <a class="pp" href="#">Privacy Policy</a>
+  <a class="tu" href="#">Terms of Use</a>
+</section>
+
+<section class="media">
+<p class="follow">Follow us on:</p>
+<a href="#" class="button"><img class="social" src="./templates/images/Facebook.png" alt="facebook"></a>
+<a href="#"><img class="social" src ="./templates/images/Instagram.png" alt="instagram"></a>
+<a href="#"><img class="social" src="./templates/images/Twitter.png" alt="twitter"></a>
+</section>
+</footer>
+
+
+
+
   <link href="projecthub.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="../templates/menu.js"></script>
+  <script src="./templates/menu.js"></script>
   </body>
 </html>

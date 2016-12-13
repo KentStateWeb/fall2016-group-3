@@ -24,15 +24,11 @@ a:visited {
 a:hover {
   color:  #62a4b7;
 }
+
   .logo {
     width:200px;
     max-width: 20%;
   }
-
-.aaha {
-  width: 70%;
-  margin-top: 2em;
-}
 
 a.menu-link {
             display: block;
@@ -115,6 +111,7 @@ a.menu-link {
             }
             nav[role=navigation].active {
                 max-height: 23em;
+                text-align: center;
             }
             nav[role=navigation] ul {
                 margin: 0;
@@ -125,6 +122,7 @@ a.menu-link {
                 display: block;
                 padding: 0.8em;
                 border-bottom: 1px solid #808080;
+                text-decoration: none;
             }
 
             @media screen and (min-width:1135px) {
@@ -154,7 +152,8 @@ a.menu-link {
 /* smallest responsive breakpoint */
 @media screen and (min-width: 400px){
   .top-photo {
-    background-image: url("images/pawprint_background.jpg");
+    background-image: url("images/pawprint_background.png");
+    background-size: cover;
   }
 
   a.logo {
@@ -164,7 +163,6 @@ a.menu-link {
   .dropdown-content {
     padding: 0;
   }
-
 
     .intro {
       text-align: center;
@@ -195,6 +193,7 @@ a.menu-link {
       font-weight: 400;
     }
 
+
 /* Why you should choose us? section */
     .reasons {
       justify-content: center;
@@ -209,6 +208,11 @@ a.menu-link {
 
     .goal {
       text-align: center;
+    }
+
+    .aaha {
+      max-width: 70%;
+      margin-top: 2em;
     }
 
     footer {
@@ -247,7 +251,7 @@ a.menu-link {
     border-radius: .25em;
   }
   .portal:hover  {
-    background-color: #000;
+    background-color: #db682e;
     transition: all 0.5s;
   }
   .portal2 {
@@ -260,6 +264,11 @@ a.menu-link {
     margin-left: 4em;
     padding-top: 1.8em;
     width: inherit;
+  }
+
+  .aaha {
+    max-width: 65%;
+    margin-top: 2em;
   }
 }
 
@@ -297,6 +306,7 @@ main {
       background-image: url("images/Graphic_Pets.png");
       background-size: cover;
       padding: 5em;
+
     }
 
     .lets {
@@ -356,10 +366,12 @@ h2 {
 h4 {
   border-bottom: 1px solid #E6976F;
   padding-bottom: .75em;
+  font-size: 1.5em;
 }
   .week {
     font-weight: bold;
     padding-right: 2em;
+    text-align:left;
   }
 
   .week, .notice {
@@ -373,7 +385,6 @@ h4 {
   }
 
 @media screen and (min-width: 700px) {
-
   .intro {
     text-align: left;
   }
@@ -403,13 +414,6 @@ h4 {
   .reasons {
     display: flex;
   }
-
-  .aaha {
-    width: 30%;
-    max-width: 100%
-    margin-top: 2em;
-  }
-
 }
 
 /* blog */
@@ -466,6 +470,11 @@ footer {
   }
 
   @media screen and (min-width: 700px) {
+    .aaha {
+      max-width: 35%;
+      margin-top: 2em;
+    }
+
     .blog {
       text-align: left;
     }

@@ -7,9 +7,18 @@
     <title>Pets First! Veterinary Clinic</title>
     <meta name="animal clinic" content="Pets First Veterinary Clinic is located in Planos, TX">
   </head>
+
   <body>
     <header>
       <a class="logo" href="index.html"> <img src="images/pf.svg" alt="Pets First! Vet Clinic"></a>
+      <a href="#menu" class="menu-link">
+          <div class="menu-link__hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="menu-link__label">Menu</div>
+      </a>
 
   <div class="dropdown-content">
     <nav id="menu" role="navigation">
@@ -73,5 +82,7 @@
 
 
       <link href="home.css" rel="stylesheet" type="text/css" media="screen"/> <link href="pet_guide.css" rel="stylesheet" type="text/css" media="screen"/> <!-- Add your stylesheet here, before the closing HTML tag -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+      <script src="menu.js"></script>
   </body>
 </html>

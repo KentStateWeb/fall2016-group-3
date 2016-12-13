@@ -1,1 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+h1 {
+  text-align: center;
+  color: #E6976F;
+  margin-left: .85em;
+}
+
+.convenience {
+  margin-bottom: 2em;
+}
+
+li.supply {
+  list-style-type: circle;
+}
+
+.offer, .payment, .seen {
+  text-align: center;
+}
+
+.types {
+  padding-bottom: 1em;
+}
+.accordion {
+    margin:0 auto;
+    padding:0;
+    width: 90%
+}
+
+.accordion li {
+    list-style:none;
+    width:100%;
+    }
+
+.accordion li label {
+    padding:20px;
+    border-radius:.35em;
+    margin-top: .35em;
+    display:block;
+    background-color:#5C9BAD;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    }
+
+/* Hide the radio buttons */
+.accordion label + input[type='radio'] {
+    display: none;
+}
+
+/* hide content by default */
+.accordion .content {
+  max-height: 0;
+    overflow: hidden;
+    display: block;
+    transition: none;
+}
+
+.accordion label + input[type='radio']:checked + .content {
+    max-height: 50em;
+    padding:.5em;
+    overflow: visible;
+    transition: .7s max-height ease;
+}
+
+@media screen and (min-width: 400px) {
+
+}

@@ -21,6 +21,8 @@ li.supply {
 .types {
   padding-bottom: 1em;
 }
+
+/* accordion style drop down*/
 .accordion {
     margin:0 auto;
     padding:0;
@@ -57,12 +59,8 @@ li.supply {
 }
 
 .accordion label + input[type='radio']:checked + .content {
-    max-height: 50em;
+    max-height: 100em;
     padding:.5em;
     overflow: visible;
     transition: .7s max-height ease;
-}
-
-@media screen and (min-width: 400px) {
-
 }

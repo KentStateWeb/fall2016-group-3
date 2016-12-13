@@ -296,7 +296,6 @@ main {
       font-size: 2em;
       color:  #E6976F;
       background-color: #C7E0E7;
-      margin-left: .125em;
       padding: .5em;
     }
 
@@ -355,9 +354,13 @@ main {
 h2 {
     font-family: 'Josefin Slab', serif;
     color: #E6976F;
-    font-weight: 600;
+    font-weight: 900;
+    font-size: 2em;
     text-align: center;
     border-bottom: 1px solid #E6976F;
+    padding-bottom: .5em;
+    padding-top: 1em;
+    line-height:1.5em;
   }
 
 
@@ -430,6 +433,7 @@ h4 {
 /*Our mission*/
   .goals {
     line-height: 2em;
+    padding-top: 1em;
   }
 
   .goals2 {

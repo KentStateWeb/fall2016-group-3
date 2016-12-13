@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans');
+
+header {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: hsl(195.3, 34.4%, 24.5%);
+      padding: 1em;
+      position: relative;
+    }
+
+/* Header, nav menu, pet portal */
+.dropdown-content {
+  width: 100%;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color:  #62a4b7;
+}
+  .logo {
+    width:200px;
+    max-width: 20%;
+  }
+
+.aaha {
+  width: 70%;
+  margin-top: 2em;
+}
+
+a.menu-link {
+            display: block;
+            padding: 1em;
+              width: 94px;
+              margin-left: auto;
+        }
+
+
+    /* Adds Code for Pure CSS Hamburger Button */
+
+    .menu-link__hamburger {
+      margin: 0 auto;
+      text-align: center;
+      width: 33px;
+      float: left;
+      transform: translate(0,0);
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    .menu-link__label {
+      float: left;
+      padding-left: .75em;
+    }
+
+    a.menu-link span {
+      display: block;
+      height: 5px;
+      margin-bottom: 5px;
+      position: relative;
+      background: #cdcdcd;
+      border-radius: 3px; /* Adjust the rounding of the hamburger here */
+      z-index: 1;
+      transform-origin: 4px 0px;
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      opacity 0.55s ease;
+    }
+
+    a.menu-link span:first-child {
+      transform-origin: 0% 0%;
+    }
+
+
+    a.menu-link span:nth-child(3) {
+      transform-origin: 0% 100%;
+    }
+
+    .menu-link.active .menu-link__hamburger {
+      transform: translate(10px, 0);
+    }
+
+    .menu-link.active span {
+      opacity: 1;
+      background: black;
+      transform: rotate(45deg) translate(-2px, -1px);
+    }
+
+    .menu-link.active span:nth-child(2) {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    .menu-link.active span:nth-child(3){
+      opacity: 1;
+      transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    nav[role=navigation] {
+                clear: both;
+                -webkit-transition: all 0.3s ease-out;
+                -moz-transition: all 0.3s ease-out;
+                -ms-transition: all 0.3s ease-out;
+                -o-transition: all 0.3s ease-out;
+                transition: all 0.3s ease-out;
+            }
+            .js nav[role=navigation] {
+                overflow: hidden;
+                max-height: 0;
+            }
+            nav[role=navigation].active {
+                max-height: 23em;
+            }
+            nav[role=navigation] ul {
+                margin: 0;
+                padding: 0;
+                border-top: 1px solid #808080;
+            }
+            nav[role=navigation] li a {
+                display: block;
+                padding: 0.8em;
+                border-bottom: 1px solid #808080;
+            }
+
+            @media screen and (min-width:1135px) {
+                a.menu-link {
+                   display: none;
+                }
+                .js nav[role=navigation] {
+                    max-height: none;
+                }
+                nav[role=navigation] ul {
+                    margin: 0 0 0 -0.25em;
+                    border: 0;
+                }
+
+                nav[role=navigation]  li {
+                    display: inline-block;
+                    margin: 0 0.25em;
+                }
+                nav[role=navigation] li a {
+                    border: 0;
+                }
+            }
+
+/* End Hamburger Menu Code */
+
+
+/* smallest responsive breakpoint */
+@media screen and (min-width: 400px){
+  .top-photo {
+    background-image: url("images/pawprint_background.jpg");
+  }
+
+  a.logo {
+    max-width: 1100px;
+  }
+
+  .dropdown-content {
+    padding: 0;
+  }
+
+
+    .intro {
+      text-align: center;
+    }
+
+    .welcome {
+      margin-top: 1.5em;
+    }
+
+    .hours {
+      text-align: center;
+    }
+
+    .week {
+      padding-left: 1.5em;
+    }
+
+    .blog {
+      text-align: center;
+    }
+
+.icons
+{display: flex;
+max-height: 100px;
+min-width: 300px;}
+
+
+
+    figcaption {
+      margin-bottom: 1em;
+      font-weight: 400;
+    }
+
+/* Why you should choose us? section */
+    .reasons {
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 2em;
+    }
+
+
+    .goal {
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 4em;
+      text-align: center;
+    }
+
+    .contact {
+      padding-top: 1em;
+    }
+
+    .media {
+      padding-top: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1135px) {
+  nav {
+    display: block;
+  }
+
+  .media{
+    padding-top: 1em;
+  }
+
+  nav ul {
+    white-space: nowrap;
+    list-style-type: none;
+    display: flex;
+  }
+
+  .portal {
+    text-decoration: none;
+    background-color: #E6976F;
+    padding: .5em;
+    border-radius: .25em;
+  }
+  .portal:hover  {
+    background-color: #000;
+    transition: all 0.5s;
+  }
+  .portal2 {
+    position: absolute;
+    right: 0;
+    bottom: 1.2em;
+  }
+
+  .dropdown-content {
+    margin-left: 4em;
+    padding-top: 1.8em;
+    width: inherit;
+  }
+}
+
+
+li {
+  padding: 0 2em 0 .125em;
+}
+
+
+  .link {
+    text-decoration: none;
+  }
+
+body {
+      background-color: #ededed;
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+main {
+  padding: 0 2em;
+  margin: 1em;
+}
+/*Announcement section*/
+    .new {
+      text-align: center;
+      font-size: 2em;
+      color:  #E6976F;
+      background-color: #C7E0E7;
+      margin-left: .125em;
+      padding: .5em;
+    }
+
+/* home page main attraction */
+    .top-photo {
+      background-image: url("images/Graphic_Pets.png");
+      background-size: cover;
+      padding: 5em;
+    }
+
+    .lets {
+      font-weight: normal;
+      font-size: 1em;
+      color: #2e5d6b;
+    }
+
+    .adjectives {
+      font-size: 3em;
+      color: #458da1;
+      margin-top: -.02em;
+      margin-bottom: 2em;
+    }
+
+    .appointment {
+      text-decoration: none;
+      background-color: hsl(195.3, 34.4%, 24.5%);
+      width: 262px;
+      text-align: center;
+      padding: 1em;
+      border-radius: .5em;
+      font-size: 1.2em;
+    }
+
+/*Welcome to Site*/
+
+    .welcome {
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+
+    .y {
+      font-weight: 400;
+      font-size: 2em;
+    }
+
+    .call {
+      font-weight: 400;
+      font-size: 1.5em;
+    }
+
+    .emergency {
+      text-decoration: none;
+    }
+
+
+h1 {      font-size: 3em;
+      color: #458da1;
+    margin: 1em;
+  border-bottom: 1px solid #E6976F;
+padding-bottom: .75em;}
+
+
+h2 {
+    font-family: 'Josefin Slab', serif;
+    color: #E6976F;
+    font-weight: 600;
+    padding-bottom: .1em;
+    border-bottom: 1px solid #E6976F;
+    font-size: 2.5em;
+  }
+
+
+/*Business hours information*/
+h4 {
+  border-bottom: 1px solid #E6976F;
+  padding-bottom: .75em;
+}
+  .week {
+    font-weight: bold;
+    padding-right: 2em;
+  }
+
+  .week, .notice {
+    line-height: 1.5em;
+  }
+
+  .hours {
+    background-color: white;
+    margin: 1em 0 ;
+    padding: .125em 1em .5em 1em;
+  }
+
+@media screen and (min-width: 700px) {
+
+  .intro {
+    text-align: left;
+  }
+
+  .right-side {
+    display: flex;
+  }
+
+  .hours {
+    width: 49%;
+    margin-right: 2%;
+    text-align: left;
+  }
+
+  .week {
+    padding-left: .125em;
+  }
+
+  .blog {
+    width: 49%
+  }
+
+  .terms {
+    text-align: center;
+  }
+
+  .reasons {
+    display: flex;
+  }
+
+  .aaha {
+    width: 30%;
+    max-width: 100%
+    margin-top: 2em;
+  }
+
+}
+
+/* blog */
+  .blog {
+    background-color: #C7E0E7;
+    color: #404142;
+    margin: 1em 0;
+    padding: .125em 1em 2em 1em;
+  }
+
+  .t {
+    background-color: #5C9BAD;
+    color: white;
+    padding: 1em;
+    text-align: left;
+  }
+
+/*Our mission*/
+  .goals {
+    line-height: 2em;
+  }
+
+  .goals2 {
+    font-size: 1.4em;
+  }
+
+
+  /*Color Palette*/
+  .orange {
+  background-color: #E59570;
+}
+
+.lb {
+  background-color: #C6E0E8;
+}
+
+.blue {
+  background-color: #5C9BAD;
+}
+
+.db {
+  background-color: #284853;
+}
+
+.black {
+  background-color: #323234;
+}
+
+.color {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  margin: .5em;
+  border-radius: 10px;
+}
+
+
+.open {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.josefin{
+  font-size: 2em;
+  font-family: 'Josefin Slab', slab-serif;
+}
+
+.header2{
+  min-width: 400px;
+}
+
+.footer2{
+  min-width: 400px;
+}
+
+
+footer {
+    background-color: hsl(195.3, 34.4%, 24.5%);
+    color: white;
+    padding: .125em 2em 1em 2em;
+
+  }
+
+  .follow {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .social {
+    max-width: 10%;
+  }
+
+  .media {
+
+
+  }
+
+  .contact {
+
+  }
+
+  .terms {
+    line-height: 1em;
+    margin-top: 2em;
+  }
+
+  @media screen and (min-width: 700px) {
+    .blog {
+      text-align: left;
+    }
+
+    footer {
+      display: flex;
+      padding: 4em 2em 2em 2em;
+      text-align: left;
+    }
+
+    .media {
+      margin-left: auto;
+      text-align: right;
+      margin-top: 2.5em;
+    }
+
+    .contact {
+      width: 40%;
+      margin-top: 1.5em;
+    }
+
+    .terms {
+      width: 30%;
+      margin-top: 3.5em;
+    }
+  }
